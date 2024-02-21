@@ -1,0 +1,91 @@
+.cont {
+  width: fit-content;
+  margin: 270px auto;
+  display: flex;
+  /* animation: animate; */
+}
+
+.loader {
+  background-color: black;
+  opacity: 0.6;
+  align-self: center;
+  margin-right: 20px;
+  border-radius: 5px;
+
+}
+
+.div2 {
+  height: 30px;
+  width: 5px;
+  /* animation: animate2 2s linear 0 infinite alternate ; */
+  animation-name: animate2;
+  animation-duration: 1s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.div3 {
+  height: 60px;
+  width: 5px;
+  /* animation-name: animate3; */
+  animation-duration: 1s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.div4 {
+  height: 90px;
+  width: 5px;
+  animation-name: animate4;
+  animation-duration: 1s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.div5 {
+  height: 60px;
+  width: 5px;
+  /* animation-name: animate5; */
+  animation-duration: 1s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.div6 {
+  height: 30px;
+  width: 5px;
+  animation-name: animate6;
+  animation-duration: 1s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes animate2 {
+  from {height: 30px;}
+  to {height: 90px;}
+}
+@keyframes animate3 {
+  0% {height: 60px;}
+  50% {height: 90px;}
+  100%{height: 60px;}
+}
+@keyframes animate4 {
+  from {height: 90px;}
+  to {height: 30px;}
+}
+@keyframes animate5 {
+  0% {height: 60px;}
+  50% {height: 90px;}
+  100%{height: 60px;}
+}
+@keyframes animate6 {
+  from {height: 30px;}
+  to {height: 90px;}
+}
